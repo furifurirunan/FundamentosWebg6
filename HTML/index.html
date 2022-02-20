@@ -10,7 +10,7 @@
 
 <body>
     <!--Esto es un comentario (heading h1 al h6 (1em es 16 pixeles))-->
-    <h1>Esto es un titulo</h1>
+    <h1 id="titulo1">Esto es un titulo</h1>
     <h2>Esto es un titulo2</h2>
     <h3>Esto es un titulo2</h3>
     <h4>Esto es un titulo2</h4>
@@ -20,7 +20,89 @@
     <br>
     <!--<hr>linea horizontal-->
     <hr>
+    <!--Parrafos-->
+    <!--b y strong ponen en negrita, el i ponen en cursiva, u subraya-->
+    <p>
+        <b>Esto es un parrafo</b> <i>(nos permite trabajar texto)</i>
+    </p>
+    <p>
+        <strong>Esto es un parrafo</strong>
+    </p>
 
+    <br>
+    <hr>
+    <!-- Link ! (Anchor tag) (href) (el target nos abre en otra pestaña)-->
+    <a href=" https://www.w3schools.com" target="_blank"> w3School</a>
+
+    <!--Link con imagen-->
+    <a href="https://www.linux.org" target="_blank">
+        <img src="assets/img/cafe.jpg">
+    </a>
+    <br>
+    <hr>
+
+    <!--link dentro de la misma pagina-->
+    <a href="#titulo1">Titulo</a>
+    <br>
+    <hr>
+    <!--Listas (ordenadas (OL) y no ordenadas (UL) ) -->
+    <!--Li list items-->
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <!-- sublistas-->
+    <ul>
+        <li>1
+            <ul>
+                <li>
+                    <a href=" https://www.w3schools.com" target="_blank"> w3School</a>
+                </li>
+                <li>uno dos</li>
+            </ul>
+        </li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <br>
+    <hr>
+    <!--Imagenes (alt sirve para cuando se pierde el link)-->
+    <img src="assets/img/cafe-de-especialidad-1.jpg" alt="cafe-de-especialidad-1">
+    <img src="assets/img/cafe_chocolate-680x510.jpg" alt="cafe_chocolate-680x510">
+    <img src="assets/img/puro-cafe.jpg" alt="pie de limon">
+
+    <br>
+    <hr>
+
+    <!-- Tablas-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Kevin</td>
+                <td>Araya</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Matias</td>
+                <td>Urrutia</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
